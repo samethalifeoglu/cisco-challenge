@@ -1,0 +1,17 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "samethalifeolu_eKEPhm",
+  "key": "q5CfZoSo2pgCUwA5KHxf",
+
+  "capabilities": {
+    "build": "testng-browserstack",
+    "name": "single_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    }
+  }
+}
