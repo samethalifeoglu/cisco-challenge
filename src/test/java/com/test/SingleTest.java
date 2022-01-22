@@ -2,23 +2,24 @@ package com.test;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.BrowserPage;
-import pages.HomePage;
-import pages.LoginPage;
+import pages.*;
 import util.Constants;
 
 public class SingleTest extends BaseTest {
 
-    private final String trendyolEmail = configuration.getEmail();
-    private final String trendyolPassword = configuration.getPass();
+    private final String userEmail = configuration.getEmail();
+    private final String userPassword = configuration.getPass();
 
-    private HomePage homePage;
     private BrowserPage browserPage;
+    private LoginPage loginPage;
+    private WebAppPage webAppPage;
+
 
     @BeforeMethod()
     public void pageInstantiations() {
-        homePage = new HomePage(driver);
         browserPage = new BrowserPage(driver);
+        loginPage = new LoginPage(driver);
+        webAppPage = new WebAppPage(driver);
     }
 
     @Test
@@ -26,10 +27,21 @@ public class SingleTest extends BaseTest {
 
         browserPage.openUrl(Constants.URL);
 
-        LoginPage loginPage = homePage.selectGender();
+        HomePage homePage = loginPage
+                .loginWithValidUser(userEmail, userPassword);
 
-        loginPage
-                .loginValidUser(trendyolEmail,trendyolPassword)
-                .checkLoggedIn();
+        MyEventsPage myEventsPage = homePage
+                .openMyEventsDashboard();
+
+        var webAppLink = myEventsPage
+                .openEvent(Constants.EVENT_NAME)
+                .openEventWebAppTab()
+                .enableWebApp()
+                .saveWebApp()
+                .copyWebAppLink();
+
+        browserPage.openNewWindow(webAppLink);
+
+
     }
 }

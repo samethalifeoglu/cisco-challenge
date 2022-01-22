@@ -1,10 +1,7 @@
 package pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,6 +10,7 @@ import util.Constants;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.List;
 
 import static util.Constants.*;
 
@@ -41,6 +39,17 @@ public class BasePage {
         }
     }
 
+    protected List<WebElement> getElements(By by) {
+        try {
+            getElement(by);
+            return wait.ignoring(StaleElementReferenceException.class)
+                    .until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+        } catch (Exception e) {
+            Assert.fail("Could not find elements || Element Locator =>" + by + " Error : " + e);
+            return null;
+        }
+    }
+
     /**
      * Open given url
      * @param url
@@ -62,7 +71,7 @@ public class BasePage {
             }
         };
         try {
-            WebDriverWait wait = new WebDriverWait(driver, 30);
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
             wait.until(jsLoad);
         }catch (Throwable e){
             Assert.fail(PAGE_TIME_OUT);
@@ -131,6 +140,32 @@ public class BasePage {
         }
     }
 
+    /**
+     * Clicks element from list with text
+     * @param by target element locator
+     */
+    public void clickListElementWithText(By by, String elementText) {
+        try {
+            List<WebElement> elements = getElements(by);
+            for (WebElement element:elements) {
+                if (element.getText().equals(elementText))
+                    element.click();
+                logger.info(Constants.CLICK_ELEMENT + by);
+            }
+        } catch (Exception e) {
+            Assert.fail(Constants.COULD_NOT_CLICK_ELEMENT + by + "Error : " +e);
+        }
+    }
+
+    /**
+     * Wait until element appear
+     * @param by target element locator
+     */
+    public void waitElementAppear(By by) {
+        logger.info(Constants.WAIT_ELEMENT + by);
+        getElement(by);
+    }
+
     public void doesElementTextEqualsText(By by, String expectedText) {
         WebElement element = getElement(by);
         if (!element.getText().equals(expectedText)) {
@@ -148,35 +183,4 @@ public class BasePage {
                     + " || Expected value : " + expectedText);
         }
     }
-
-    /**
-     * Open url in new window
-     * @param url
-     */
-    public void openNewWindow(String url) {
-        try {
-            ((JavascriptExecutor) driver)
-                    .executeScript("window.open(arguments[0])", url);
-            ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(tabs.get(1));
-            logger.info(Constants.OPEN_URL + url);
-        } catch (Exception e) {
-            Assert.fail(Constants.COULD_NOT_OPEN_URL + url + " Error : " + e);
-        }
-    }
-
-    /**
-     * Switch to main window
-     */
-    public void switchToMainWindow() {
-        try {
-            driver.close();
-            ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-            driver.switchTo().window(tabs.get(0));
-            logger.info("Switch to main window");
-        } catch (Exception e) {
-            Assert.fail("Could not switch to main window ||" + " Error : " + e);
-        }
-    }
-
 }

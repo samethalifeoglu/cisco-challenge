@@ -2,7 +2,7 @@ package util;
 
 public class Constants {
 
-    public static final String URL = "https://www.trendyol.com";
+    public static final String URL = "https://staging.platform.socio.events/";
 
     public static final String CONFIG_FILE_PATH = System.getProperty("user.dir") + "//config.properties";
 
@@ -18,5 +18,9 @@ public class Constants {
     public static final String COULD_NOT_GET_TEXT_OF_ELEMENT = "Could not get text of element || Locator => ";
     public static final String OPEN_URL = "Open url || Url => ";
     public static final String COULD_NOT_GET_ATTRIBUTE_OF_ELEMENT = "Could not get attribute of element || Locator => ";
+    public static final String WAIT_ELEMENT = "Waiting for the element || Locator =>";
+
+    public static final String MY_EVENTS_DASHBOARD_TITLE = "My Events";
+    public static final String EVENT_NAME = "Test Automation Assessment Event";
 
 }
