@@ -5,6 +5,8 @@ public class Constants {
     public static final String URL = "https://staging.platform.socio.events/";
 
     public static final String CONFIG_FILE_PATH = System.getProperty("user.dir") + "//config.properties";
+    public static final String IMAGE_PATH = System.getProperty("user.dir") + "/image.png";
+
 
     //Log Messages
     public static final String CLICK_ELEMENT = "Clicked on the element || Locator => ";

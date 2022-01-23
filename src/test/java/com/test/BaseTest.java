@@ -2,6 +2,7 @@ package com.test;
 
 import com.browserstack.DriverAbstraction;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -9,7 +10,7 @@ import util.Configuration;
 
 public class BaseTest {
 
-    WebDriver driver;
+    RemoteWebDriver driver;
     Configuration configuration = new Configuration();
 
     @BeforeMethod(alwaysRun = true)

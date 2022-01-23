@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class WebAppPage extends BasePage {
 
@@ -11,15 +11,15 @@ public class WebAppPage extends BasePage {
   private final By WEB_APP_LOGIN_BUTTON = By.id("login-button");
   private final By WALL = By.xpath("//*[@data-testid='listItem']//*[contains(text(),'Wall')]");
   private final By NEW_POST = By.xpath(getDataTestId("new-post-text"));
-  private final By NEW_POST_INPUT = By.xpath(getDataTestId("post-modal-input"));
+  private final By NEW_POST_INPUT = By.xpath("//*[@data-testid='post-modal-input']//*[contains(@placeholder,'Test?')]");
   private final By NEW_POST_ADD_IMAGE = By.xpath(getDataTestId("post-modal-add-image"));
-  private final By NEW_POST_IMAGE_UPLOAD_INPUT = By.xpath("//input[@id='fsp-fileUpload']");
+  private final By NEW_POST_IMAGE_UPLOAD_INPUT = By.xpath("//*[@id='fsp-fileUpload']");
   private final By NEW_POST_IMAGE_UPLOAD_SAVE_BUTTON = By.xpath("//*[@title='Save']");
   private final By NEW_POST_IMAGE_UPLOAD_BUTTON = By.xpath("//*[@title='Upload']");
   private final By NEW_POST_SEND_BUTTON = By.xpath(getDataTestId("post-modal-send"));
   private final By LIKE_BUTTON = By.xpath(getDataTestId("post-list-item-like"));
 
-  public WebAppPage(WebDriver driver) {
+  public WebAppPage(RemoteWebDriver driver) {
     super(driver);
   }
 
@@ -40,7 +40,7 @@ public class WebAppPage extends BasePage {
     clickElement(NEW_POST);
     setText(NEW_POST_INPUT, textMessage);
     clickElement(NEW_POST_ADD_IMAGE);
-    setText(NEW_POST_IMAGE_UPLOAD_INPUT, imagePath);
+    setText(NEW_POST_IMAGE_UPLOAD_INPUT, getAbsoluteImagePath(imagePath));
     clickElement(NEW_POST_IMAGE_UPLOAD_SAVE_BUTTON);
     clickElement(NEW_POST_IMAGE_UPLOAD_BUTTON);
     clickElement(NEW_POST_SEND_BUTTON);

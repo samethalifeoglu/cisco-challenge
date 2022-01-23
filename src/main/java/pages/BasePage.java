@@ -2,14 +2,16 @@ package pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.remote.LocalFileDetector;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import util.Constants;
 
+import java.io.File;
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
 
 import static util.Constants.*;
@@ -18,16 +20,24 @@ public class BasePage {
 
     public static final Logger logger = Logger.getLogger(Logger.class.getName());
 
-    public WebDriver driver;
+    public RemoteWebDriver driver;
     public WebDriverWait wait;
 
-    public BasePage (WebDriver driver){
+    public BasePage (RemoteWebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     public static String getDataTestId(String dataTestIdValue){
-        return "//*[@data-testid=\""+dataTestIdValue+"\"]";
+        return "//*[@data-testid='"+dataTestIdValue+"']";
+    }
+
+    public String getAbsoluteImagePath(String image_path)
+    {
+        driver.setFileDetector(new LocalFileDetector());
+        File file = new File(image_path);
+
+        return file.getAbsolutePath();
     }
 
     protected WebElement getElement(By by){
