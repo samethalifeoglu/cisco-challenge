@@ -13,6 +13,10 @@ public class BrowserPage extends BasePage {
     super(driver);
   }
 
+  /**
+   * Open url
+   * @param url
+   */
   public void openUrl(String url) {
     goToUrl(url);
   }
