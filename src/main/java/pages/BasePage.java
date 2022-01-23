@@ -25,7 +25,7 @@ public class BasePage {
 
     public BasePage (RemoteWebDriver driver){
         this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
 
     public static String getDataTestId(String dataTestIdValue){
@@ -34,15 +34,20 @@ public class BasePage {
 
     public String getAbsoluteImagePath(String image_path)
     {
-        driver.setFileDetector(new LocalFileDetector());
-        File file = new File(image_path);
-
-        return file.getAbsolutePath();
+        try {
+            driver.setFileDetector(new LocalFileDetector());
+            File file = new File(image_path);
+            return file.getAbsolutePath();
+        }catch (Exception e){
+            Assert.fail("sdsdksddsjdksjdksjdksjdkjsksjdkjsdkjsdkjskd");
+        }
+        return null;
     }
 
     protected WebElement getElement(By by){
         try{
-            return wait.until(ExpectedConditions.presenceOfElementLocated(by));
+            return wait.ignoring(StaleElementReferenceException.class)
+                    .until(ExpectedConditions.presenceOfElementLocated(by));
         }catch (Exception e){
             Assert.fail(COULD_NOT_FIND_ELEMENT + by + " Error: " + e);
             return null;
@@ -158,9 +163,12 @@ public class BasePage {
         try {
             List<WebElement> elements = getElements(by);
             for (WebElement element:elements) {
-                if (element.getText().equals(elementText))
+                if (element.getText().equals(elementText)){
                     element.click();
-                logger.info(Constants.CLICK_ELEMENT + by);
+                    logger.info(Constants.CLICK_ELEMENT + by);
+                }
+
+
             }
         } catch (Exception e) {
             Assert.fail(Constants.COULD_NOT_CLICK_ELEMENT + by + "Error : " +e);
@@ -173,7 +181,26 @@ public class BasePage {
      */
     public void waitElementAppear(By by) {
         logger.info(Constants.WAIT_ELEMENT + by);
-        getElement(by);
+        try{
+            wait.ignoring(StaleElementReferenceException.class)
+                    .until(ExpectedConditions.visibilityOfElementLocated(by));
+        }catch (Exception e){
+            Assert.fail(COULD_NOT_DISAPPEAR_ELEMENT + by + " Error: " + e);
+        }
+    }
+
+    /**
+     * Wait until element appear
+     * @param by target element locator
+     */
+    public void waitElementDisappear(By by) {
+        logger.info(Constants.WAIT_ELEMENT + by);
+        try{
+             wait.ignoring(StaleElementReferenceException.class)
+                    .until(ExpectedConditions.invisibilityOfElementLocated(by));
+        }catch (Exception e){
+            Assert.fail(COULD_NOT_DISAPPEAR_ELEMENT + by + " Error: " + e);
+        }
     }
 
     public void doesElementTextEqualsText(By by, String expectedText) {

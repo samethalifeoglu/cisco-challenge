@@ -428,3 +428,568 @@
 2022-01-23 10:57:26 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
 2022-01-23 10:57:27 INFO  Logger:99 - Clicked on the element || Locator => By.id: Wall
 2022-01-23 10:57:28 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 14:30:26 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:30:27 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:30:28 INFO  Logger:125 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:30:30 INFO  Logger:127 - Text of element || Text => My Events
+2022-01-23 14:30:30 INFO  Logger:163 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:30:31 INFO  Logger:163 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:30:31 INFO  Logger:163 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:30:32 INFO  Logger:175 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:30:34 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:30:34 INFO  Logger:143 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:30:36 INFO  Logger:145 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:30:39 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:30:40 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:30:40 INFO  Logger:143 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:30:40 INFO  Logger:145 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:30:41 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:30:45 INFO  Logger:99 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:30:47 INFO  Logger:99 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:30:51 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:30:51 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:30:53 INFO  Logger:99 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:33:12 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:33:14 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:33:14 INFO  Logger:124 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:33:17 INFO  Logger:126 - Text of element || Text => My Events
+2022-01-23 14:33:17 INFO  Logger:162 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:33:17 INFO  Logger:162 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:33:18 INFO  Logger:162 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:33:18 INFO  Logger:174 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:33:21 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:33:21 INFO  Logger:142 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:33:26 INFO  Logger:144 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:33:28 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:33:29 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:33:29 INFO  Logger:142 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:33:30 INFO  Logger:144 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:33:31 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:33:39 INFO  Logger:98 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:33:41 INFO  Logger:98 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:33:45 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:33:46 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:33:48 INFO  Logger:98 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:36:31 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:36:33 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:36:33 INFO  Logger:129 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:36:36 INFO  Logger:131 - Text of element || Text => My Events
+2022-01-23 14:36:37 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:36:37 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:36:38 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:36:38 INFO  Logger:179 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:36:40 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:36:40 INFO  Logger:147 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:36:50 INFO  Logger:149 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:36:51 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:36:52 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:36:52 INFO  Logger:147 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:36:53 INFO  Logger:149 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:36:54 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:36:59 INFO  Logger:103 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:37:02 INFO  Logger:103 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:37:09 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:37:09 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:37:10 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:39:42 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:39:43 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:39:43 INFO  Logger:129 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:39:46 INFO  Logger:131 - Text of element || Text => My Events
+2022-01-23 14:39:46 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:39:46 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:39:47 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:39:47 INFO  Logger:179 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:39:49 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:39:49 INFO  Logger:147 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:39:52 INFO  Logger:149 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:39:53 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:39:54 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:39:54 INFO  Logger:147 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:39:54 INFO  Logger:149 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:39:55 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:40:02 INFO  Logger:103 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:40:04 INFO  Logger:103 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:40:07 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:40:08 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:40:09 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:41:57 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:42:00 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:42:00 INFO  Logger:129 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:42:02 INFO  Logger:131 - Text of element || Text => My Events
+2022-01-23 14:42:03 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:42:03 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:42:03 INFO  Logger:167 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:42:04 INFO  Logger:179 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:42:07 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:42:07 INFO  Logger:147 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:42:10 INFO  Logger:149 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:42:11 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:42:12 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:42:12 INFO  Logger:147 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:42:12 INFO  Logger:149 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:42:13 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:42:15 INFO  Logger:103 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:42:17 INFO  Logger:103 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:42:20 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:42:21 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:42:22 INFO  Logger:103 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:45:07 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:45:09 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:45:09 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:45:11 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 14:45:12 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:45:13 INFO  Logger:181 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:45:14 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:45:14 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:45:21 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:45:21 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:45:22 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:45:22 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:45:22 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:45:23 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:45:25 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:45:28 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:45:32 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:45:32 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:45:34 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:47:46 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:47:47 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:47:47 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:47:49 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 14:47:50 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:47:50 INFO  Logger:181 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:47:51 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:47:52 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:47:57 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:47:58 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:47:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:47:59 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:48:00 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:48:00 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:48:07 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:48:08 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:48:12 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:48:12 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:48:13 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:48:13 INFO  Logger:181 - Waiting for the element || Locator =>By.xpath: //input[@class='fsp-local-source__fileinput']
+2022-01-23 14:49:07 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:49:09 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:49:09 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:49:10 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 14:49:12 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:49:12 INFO  Logger:181 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:49:13 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:49:14 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:49:15 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:49:22 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:49:23 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:49:23 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:49:23 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:49:24 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:49:27 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:49:28 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:49:31 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:49:32 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:49:33 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:49:35 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 14:49:35 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 14:51:25 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:51:27 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:51:27 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:51:29 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 14:51:30 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:51:30 INFO  Logger:181 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:51:31 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:51:31 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:51:33 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:51:34 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:51:35 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:51:35 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:51:36 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:51:36 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:51:46 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:51:47 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:51:51 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:51:52 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:51:53 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 14:51:57 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 14:51:57 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 14:52:37 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 14:52:40 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 14:52:40 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 14:52:42 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 14:52:43 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 14:52:44 INFO  Logger:181 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:52:45 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 14:52:46 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 14:52:48 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 14:52:49 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 14:52:51 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 14:52:51 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 14:52:51 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:52:52 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 14:52:55 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 14:52:56 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 14:52:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 14:53:00 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 14:53:01 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:11:38 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:11:40 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:11:40 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:11:43 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:11:44 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:11:44 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:11:47 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:11:47 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:11:55 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:11:55 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:11:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:11:56 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:11:56 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:11:57 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:12:02 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:12:04 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:12:08 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:12:09 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:12:11 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:13:03 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:13:05 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:13:05 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:13:07 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:13:08 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:13:08 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:13:10 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:13:12 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:13:18 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:13:19 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:13:21 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:13:21 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:13:21 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:13:21 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:13:30 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:13:31 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:13:35 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:13:36 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:13:37 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:13:40 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:13:42 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:15:55 INFO  Logger:105 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:15:56 INFO  Logger:105 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:15:56 INFO  Logger:131 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:15:58 INFO  Logger:133 - Text of element || Text => My Events
+2022-01-23 15:16:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:17:00 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:17:00 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:17:02 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:17:03 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:17:03 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:17:05 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:17:05 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:17:08 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:17:10 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:17:10 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:17:10 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:17:11 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:17:11 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:17:18 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:17:21 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:17:24 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:17:25 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:17:26 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:17:29 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:17:29 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:17:31 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:17:31 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:17:33 INFO  Logger:45 - Switch to main window
+2022-01-23 15:17:34 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:17:34 INFO  Logger:104 - Clicked on the element || Locator => By.id: Wall
+2022-01-23 15:17:35 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 15:18:17 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:18:19 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:18:19 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:18:21 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:18:22 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:18:23 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:18:24 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:18:25 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:18:26 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:18:33 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:18:34 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:18:34 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:18:35 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:18:35 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:18:43 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:18:46 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:18:50 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:18:51 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:18:52 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:18:54 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:18:55 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:25:55 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:25:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:25:56 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:25:58 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:25:59 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:25:59 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:26:01 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:26:02 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:26:02 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:26:04 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:26:05 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:26:05 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:26:05 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:26:06 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:26:13 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:26:15 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:26:18 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:26:19 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:26:20 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:26:22 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:26:23 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:26:23 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@class='fsp-progress-bar']
+2022-01-23 15:26:24 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:26:24 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:26:25 INFO  Logger:45 - Switch to main window
+2022-01-23 15:26:26 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:26:27 INFO  Logger:104 - Clicked on the element || Locator => By.id: Wall
+2022-01-23 15:26:28 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 15:26:55 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:27:31 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:27:32 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:27:32 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:27:34 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:27:35 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:27:36 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:27:37 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:27:38 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:27:39 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:27:45 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:27:45 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:27:45 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:27:46 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:27:46 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:27:51 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:27:52 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:27:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:27:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:27:57 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:27:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:28:00 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:28:00 INFO  Logger:192 - Waiting for the element || Locator =>By.xpath: //*[@class='fsp-progress-bar']
+2022-01-23 15:30:40 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:30:42 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:30:42 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:30:44 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:30:45 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:30:45 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:30:47 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:30:47 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:30:48 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:30:53 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:30:54 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:30:54 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:30:54 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:30:55 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:31:02 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:31:03 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:31:07 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:31:08 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:31:09 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:31:11 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:31:12 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:31:12 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:31:14 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:31:14 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:31:14 INFO  Logger:45 - Switch to main window
+2022-01-23 15:31:15 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:31:16 INFO  Logger:104 - Clicked on the element || Locator => By.id: Wall
+2022-01-23 15:31:17 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 15:31:43 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:31:44 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:31:44 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:31:46 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:31:47 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:31:47 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:31:50 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:31:50 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:31:50 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:32:04 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:32:05 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:32:05 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:32:05 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:32:06 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:32:11 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:32:12 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:32:16 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:32:17 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:32:18 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:32:20 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:32:20 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:32:20 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:32:22 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:32:22 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:32:23 INFO  Logger:45 - Switch to main window
+2022-01-23 15:32:24 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:32:25 INFO  Logger:104 - Clicked on the element || Locator => By.id: Wall
+2022-01-23 15:32:26 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 15:33:28 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:33:29 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:33:29 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:33:31 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:33:32 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:33:32 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:33:34 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:33:34 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:35:38 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:35:39 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:35:39 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:35:41 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:35:42 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:35:42 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:35:45 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:35:46 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:35:47 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:35:54 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:35:55 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:35:55 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:35:55 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:35:56 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:35:59 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:36:00 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:36:03 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:36:04 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:36:05 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:36:07 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:36:08 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:36:08 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:36:10 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:36:10 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:36:11 INFO  Logger:45 - Switch to main window
+2022-01-23 15:36:12 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:36:13 INFO  Logger:104 - Clicked on the element || Locator => By.id: Wall
+2022-01-23 15:36:14 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 15:36:37 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:36:38 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:36:38 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:36:41 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:36:41 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:37:31 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:37:32 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:37:32 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:37:34 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:37:35 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:37:35 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:37:38 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:37:38 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:37:39 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:37:46 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:37:47 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:37:47 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:37:47 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:37:48 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:37:53 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:37:54 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:37:57 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:37:58 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:37:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:38:01 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:38:01 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:38:01 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:38:03 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:38:03 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:38:04 INFO  Logger:45 - Switch to main window
+2022-01-23 15:38:04 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:39:31 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:39:33 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:39:33 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:39:35 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:39:36 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:39:36 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:39:40 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:39:40 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:39:43 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:39:44 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:39:45 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:39:45 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:39:45 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:39:46 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:39:49 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:39:50 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:39:54 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:39:55 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:39:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:39:58 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:39:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:39:59 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:40:01 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:40:01 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:40:02 INFO  Logger:45 - Switch to main window
+2022-01-23 15:40:02 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:40:03 INFO  Logger:104 - Clicked on the element || Locator => By.id: Wall
+2022-01-23 15:40:04 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 15:47:44 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 15:47:46 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 15:47:46 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 15:47:48 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 15:47:49 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 15:47:49 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:47:52 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'gcon gcon-globe')]
+2022-01-23 15:47:52 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'panel-body')]/div[2]//*[contains(@class,'bootstrap-switch wrapper')]
+2022-01-23 15:47:54 INFO  Logger:150 - Text of element || Text => bootstrap-switch wrapper bootstrap-switch-on
+2022-01-23 15:47:55 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@class='btn btn-success']
+2022-01-23 15:47:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(text(),'Copy Link')]
+2022-01-23 15:47:56 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[contains(@class,'input-group')]//input
+2022-01-23 15:47:57 INFO  Logger:150 - Text of element || Text => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:47:58 INFO  Logger:31 - Open url || Url => https://staging.app.socio.events/MjQ0Mjc%3D/overview
+2022-01-23 15:48:01 INFO  Logger:104 - Clicked on the element || Locator => By.id: continue-button
+2022-01-23 15:48:02 INFO  Logger:104 - Clicked on the element || Locator => By.id: login-button
+2022-01-23 15:48:05 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='listItem']//*[contains(text(),'Wall')]
+2022-01-23 15:48:05 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='new-post-text']
+2022-01-23 15:48:07 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-add-image']
+2022-01-23 15:48:08 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Save']
+2022-01-23 15:48:08 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@title='Upload']
+2022-01-23 15:48:08 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:48:11 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='post-modal-send']
+2022-01-23 15:48:11 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='post-list-item-like']
+2022-01-23 15:48:11 INFO  Logger:45 - Switch to main window
+2022-01-23 15:48:12 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 15:48:13 INFO  Logger:104 - Clicked on the element || Locator => By.id: Wall
+2022-01-23 15:48:13 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='buttonEditFeature']
+2022-01-23 16:01:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 16:02:01 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 16:02:01 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 16:02:03 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 16:02:04 INFO  Logger:168 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //h3
+2022-01-23 16:02:06 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 16:02:07 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //span[contains(@class,'glyphicon-info-sign')]
+2022-01-23 16:02:09 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='basics-display']/div/ul //*[text()='Privacy Settings']
+2022-01-23 16:02:09 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[@data-testid='radioEventPrivacyPublic']
+2022-01-23 16:02:09 INFO  Logger:150 - Text of element || Text => sc-ifAKCX iqUPGI sc-bmyXtO hxQoCc selected
+2022-01-23 16:02:10 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'btn-success')]
+2022-01-23 16:02:10 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 16:02:11 INFO  Logger:132 - Text of element || Text => 
+2022-01-23 16:02:11 INFO  Logger:104 - Clicked on the element || Locator => By.id: event-app-nav
+2022-01-23 16:02:12 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //a[@title='My Events']
+2022-01-23 16:06:33 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 16:06:35 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 16:06:35 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 16:06:36 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 16:06:36 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='colEvent'] //*[text()='Test Automation Assessment Event']
+2022-01-23 16:06:38 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //*[text()='Test Automation Assessment Event']
+2022-01-23 16:07:46 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='linkLogin']
+2022-01-23 16:07:48 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='btnLogin']
+2022-01-23 16:07:48 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 16:07:49 INFO  Logger:132 - Text of element || Text => My Events
+2022-01-23 16:07:49 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='colEvent'] //*[text()='Test Automation Assessment Event']
+2022-01-23 16:07:52 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='colEvent'] //*[text()='Test Automation Assessment Event']
+2022-01-23 16:07:54 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='sidebarItemEditCommunity']
+2022-01-23 16:07:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //span[contains(@class,'glyphicon-info-sign')]
+2022-01-23 16:07:56 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[@data-testid='basics-display']/div/ul //*[text()='Privacy Settings']
+2022-01-23 16:07:56 INFO  Logger:148 - Getting text of element || Locator => By.xpath: //*[@data-testid='radioEventPrivacyPublic']
+2022-01-23 16:07:57 INFO  Logger:150 - Text of element || Text => sc-ifAKCX iqUPGI sc-bmyXtO hxQoCc selected
+2022-01-23 16:07:57 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //*[contains(@class,'btn-success')]
+2022-01-23 16:07:57 INFO  Logger:130 - Getting text of element || Locator => By.xpath: //*[@data-testid='titleDashead']
+2022-01-23 16:07:58 INFO  Logger:132 - Text of element || Text => Basics
+2022-01-23 16:07:58 INFO  Logger:104 - Clicked on the element || Locator => By.id: event-app-nav
+2022-01-23 16:07:59 INFO  Logger:104 - Clicked on the element || Locator => By.xpath: //a[@title='My Events']
+2022-01-23 16:07:59 INFO  Logger:183 - Waiting for the element || Locator =>By.xpath: //*[@data-testid='colEvent'] //*[text()='Test Automation Assessment Event']

@@ -1,5 +1,6 @@
 package com.test;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.*;
@@ -34,10 +35,13 @@ public class SingleTest extends BaseTest {
                 .loginWithValidUser(userEmail, userPassword);
 
         MyEventsPage myEventsPage = homePage
-                .openMyEventsDashboard();
+                .openMyEventsDashboard()
+                .changePrivacySetting(Constants.EVENT_NAME);
+
+        homePage.openMyEventsDashboard();
 
         var webAppLink = myEventsPage
-                .openEvent(Constants.EVENT_NAME)
+                .openEvent()
                 .openEventWebAppTab()
                 .enableWebApp()
                 .saveWebApp()
@@ -45,18 +49,18 @@ public class SingleTest extends BaseTest {
 
         browserPage.openNewWindow(webAppLink);
 
+        var postText = RandomUtil.createRandomPostText();
         webAppPage
                 .loginToWebApp(userEmail, userPassword)
                 .openWall()
-                .sendNewPost(RandomUtil.createRandomPostMessage(),IMAGE_PATH);
-
+                .sendNewPost(postText,IMAGE_PATH);
 
         browserPage.switchToMainWindow();
 
         myEventsPage
                 .openEditEventTab()
-                .openEditWall();
-
+                .openEditWall()
+                .checkPostIsListed(postText);
 
     }
 }

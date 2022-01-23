@@ -13,6 +13,7 @@ public class Constants {
     public static final String COULD_NOT_CLICK_ELEMENT = "Could not click on the element || Locator => ";
     public static final String COULD_NOT_OPEN_URL = "Could not open url || Url => ";
     public static final String COULD_NOT_FIND_ELEMENT = "Could not find element || Locator => ";
+    public static final String COULD_NOT_DISAPPEAR_ELEMENT = "Could not disappeared element || Locator => ";
     public static final String COULD_NOT_SEND_KEY_TO_ELEMENT = "Could not send key to element || Locator => ";
     public static final String PAGE_TIME_OUT = "Timeout waiting for Page Load Request to complete.";
     public static final String GET_TEXT_OF_ELEMENT = "Getting text of element || Locator => ";

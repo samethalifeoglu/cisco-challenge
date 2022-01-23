@@ -13,7 +13,7 @@ public class WebAppPage extends BasePage {
   private final By NEW_POST = By.xpath(getDataTestId("new-post-text"));
   private final By NEW_POST_INPUT = By.xpath("//*[@data-testid='post-modal-input']//*[contains(@placeholder,'Test?')]");
   private final By NEW_POST_ADD_IMAGE = By.xpath(getDataTestId("post-modal-add-image"));
-  private final By NEW_POST_IMAGE_UPLOAD_INPUT = By.xpath("//*[@id='fsp-fileUpload']");
+  private final By NEW_POST_IMAGE_UPLOAD_INPUT = By.xpath("//input[@class='fsp-local-source__fileinput']");
   private final By NEW_POST_IMAGE_UPLOAD_SAVE_BUTTON = By.xpath("//*[@title='Save']");
   private final By NEW_POST_IMAGE_UPLOAD_BUTTON = By.xpath("//*[@title='Upload']");
   private final By NEW_POST_SEND_BUTTON = By.xpath(getDataTestId("post-modal-send"));
@@ -43,6 +43,7 @@ public class WebAppPage extends BasePage {
     setText(NEW_POST_IMAGE_UPLOAD_INPUT, getAbsoluteImagePath(imagePath));
     clickElement(NEW_POST_IMAGE_UPLOAD_SAVE_BUTTON);
     clickElement(NEW_POST_IMAGE_UPLOAD_BUTTON);
+    waitElementAppear(NEW_POST_SEND_BUTTON);
     clickElement(NEW_POST_SEND_BUTTON);
     waitElementAppear(LIKE_BUTTON);
     return this;
