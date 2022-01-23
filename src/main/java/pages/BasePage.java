@@ -31,6 +31,11 @@ public class BasePage {
         return "//*[@data-testid='"+dataTestIdValue+"']";
     }
 
+    /**
+     * send the path to upload image from the local
+     * @param by target element locator
+     * @param image_path local image path
+     */
     public void uploadImage(By by, String image_path)
     {
         try {
@@ -43,6 +48,10 @@ public class BasePage {
         }
     }
 
+    /**
+     * wait until element is visible in page
+     * @param by target element locator
+     */
     protected WebElement getElement(By by){
         try{
             return wait.ignoring(StaleElementReferenceException.class)
@@ -65,6 +74,9 @@ public class BasePage {
         }
     }
 
+    /**
+     * wait until the page load
+     */
     public void waitForPageLoaded(){
 
         ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
@@ -153,13 +165,13 @@ public class BasePage {
             return wait.ignoring(StaleElementReferenceException.class)
                     .until(ExpectedConditions.presenceOfElementLocated(by));
         }catch (Exception e){
-            Assert.fail(COULD_NOT_DISAPPEAR_ELEMENT + by + " Error: " + e);
+            Assert.fail(COULD_NOT_FIND_ELEMENT + by + " Error: " + e);
             return null;
         }
     }
 
     /**
-     * Wait until element appear
+     * Wait until element is disappeared
      * @param by target element locator
      */
     public void waitElementDisappear(By by) {
@@ -172,6 +184,11 @@ public class BasePage {
         }
     }
 
+    /**
+     * Compare element text with expected one
+     * @param by target element locator
+     * @param expectedText given text of element
+     */
     public void doesElementTextEqualsText(By by, String expectedText) {
         WebElement element = getElement(by);
         if (!element.getText().equals(expectedText)) {
