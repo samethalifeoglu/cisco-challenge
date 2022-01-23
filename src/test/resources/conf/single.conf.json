@@ -1,7 +1,7 @@
 {
   "server": "hub-cloud.browserstack.com",
-  "user": "samethalifeolu_8qcQzZ",
-  "key": "9E38wWzLR5qiBZsq1BAX",
+  "user": "alihanozbayrak1",
+  "key": "yYzukxkJ3sAqxT1pyW7B",
 
   "capabilities": {
     "build": "testng-browserstack",

@@ -15,7 +15,6 @@ public class BrowserPage extends BasePage {
 
   public void openUrl(String url) {
     goToUrl(url);
-    waitForPageLoaded();
   }
 
   /**

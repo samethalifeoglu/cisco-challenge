@@ -40,10 +40,9 @@ public class WebAppPage extends BasePage {
     clickElement(NEW_POST);
     setText(NEW_POST_INPUT, textMessage);
     clickElement(NEW_POST_ADD_IMAGE);
-    setText(NEW_POST_IMAGE_UPLOAD_INPUT, getAbsoluteImagePath(imagePath));
+    uploadImage(NEW_POST_IMAGE_UPLOAD_INPUT, imagePath);
     clickElement(NEW_POST_IMAGE_UPLOAD_SAVE_BUTTON);
     clickElement(NEW_POST_IMAGE_UPLOAD_BUTTON);
-    waitElementAppear(NEW_POST_SEND_BUTTON);
     clickElement(NEW_POST_SEND_BUTTON);
     waitElementAppear(LIKE_BUTTON);
     return this;

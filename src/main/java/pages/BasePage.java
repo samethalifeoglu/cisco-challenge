@@ -12,7 +12,6 @@ import util.Constants;
 
 import java.io.File;
 import java.time.Duration;
-import java.util.List;
 
 import static util.Constants.*;
 
@@ -32,35 +31,24 @@ public class BasePage {
         return "//*[@data-testid='"+dataTestIdValue+"']";
     }
 
-    public String getAbsoluteImagePath(String image_path)
+    public void uploadImage(By by, String image_path)
     {
         try {
             driver.setFileDetector(new LocalFileDetector());
             File file = new File(image_path);
-            return file.getAbsolutePath();
+            String absolutePath = file.getAbsolutePath();
+            waitElementAppear(by).sendKeys(absolutePath);
         }catch (Exception e){
-            Assert.fail("sdsdksddsjdksjdksjdksjdkjsksjdkjsdkjsdkjskd");
+            Assert.fail(COULD_NOT_UPLOAD_IMAGE + by + " Error: " + e);
         }
-        return null;
     }
 
     protected WebElement getElement(By by){
         try{
             return wait.ignoring(StaleElementReferenceException.class)
-                    .until(ExpectedConditions.presenceOfElementLocated(by));
+                    .until(ExpectedConditions.visibilityOfElementLocated(by));
         }catch (Exception e){
             Assert.fail(COULD_NOT_FIND_ELEMENT + by + " Error: " + e);
-            return null;
-        }
-    }
-
-    protected List<WebElement> getElements(By by) {
-        try {
-            getElement(by);
-            return wait.ignoring(StaleElementReferenceException.class)
-                    .until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
-        } catch (Exception e) {
-            Assert.fail("Could not find elements || Element Locator =>" + by + " Error : " + e);
             return null;
         }
     }
@@ -139,7 +127,7 @@ public class BasePage {
 
     /**
      * Get a value of an element attribute
-     * @param by        target element locator
+     * @param by target element locator
      * @param attribute given attribute of element
      * @return given attribute value of element
      */
@@ -156,36 +144,17 @@ public class BasePage {
     }
 
     /**
-     * Clicks element from list with text
-     * @param by target element locator
-     */
-    public void clickListElementWithText(By by, String elementText) {
-        try {
-            List<WebElement> elements = getElements(by);
-            for (WebElement element:elements) {
-                if (element.getText().equals(elementText)){
-                    element.click();
-                    logger.info(Constants.CLICK_ELEMENT + by);
-                }
-
-
-            }
-        } catch (Exception e) {
-            Assert.fail(Constants.COULD_NOT_CLICK_ELEMENT + by + "Error : " +e);
-        }
-    }
-
-    /**
      * Wait until element appear
      * @param by target element locator
      */
-    public void waitElementAppear(By by) {
+    public WebElement waitElementAppear(By by) {
         logger.info(Constants.WAIT_ELEMENT + by);
         try{
-            wait.ignoring(StaleElementReferenceException.class)
-                    .until(ExpectedConditions.visibilityOfElementLocated(by));
+            return wait.ignoring(StaleElementReferenceException.class)
+                    .until(ExpectedConditions.presenceOfElementLocated(by));
         }catch (Exception e){
             Assert.fail(COULD_NOT_DISAPPEAR_ELEMENT + by + " Error: " + e);
+            return null;
         }
     }
 
@@ -207,15 +176,6 @@ public class BasePage {
         WebElement element = getElement(by);
         if (!element.getText().equals(expectedText)) {
             Assert.fail(element + " text does not equal to " + expectedText
-                    + " || Actual value : " + element.getText()
-                    + " || Expected value : " + expectedText);
-        }
-    }
-
-    public void doesElementTextContainText(By by, String expectedText) {
-        WebElement element = getElement(by);
-        if (!element.getText().contains(expectedText)) {
-            Assert.fail(element + " text does not contain to " + expectedText
                     + " || Actual value : " + element.getText()
                     + " || Expected value : " + expectedText);
         }

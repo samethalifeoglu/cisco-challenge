@@ -27,7 +27,7 @@ public class SingleTest extends BaseTest {
     }
 
     @Test
-    public void challenge(){
+    public void challenge() throws InterruptedException {
 
         browserPage.openUrl(Constants.URL);
 
@@ -37,8 +37,6 @@ public class SingleTest extends BaseTest {
         MyEventsPage myEventsPage = homePage
                 .openMyEventsDashboard()
                 .changePrivacySetting(Constants.EVENT_NAME);
-
-        homePage.openMyEventsDashboard();
 
         var webAppLink = myEventsPage
                 .openEvent()
