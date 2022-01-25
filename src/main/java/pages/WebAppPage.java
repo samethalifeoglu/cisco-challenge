@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.WebDriver;
 
 public class WebAppPage extends BasePage {
 
@@ -19,7 +19,7 @@ public class WebAppPage extends BasePage {
   private final By NEW_POST_SEND_BUTTON = By.xpath(getDataTestId("post-modal-send"));
   private final By LIKE_BUTTON = By.xpath(getDataTestId("post-list-item-like"));
 
-  public WebAppPage(RemoteWebDriver driver) {
+  public WebAppPage(WebDriver driver) {
     super(driver);
   }
 

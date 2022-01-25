@@ -19,10 +19,10 @@ public class BasePage {
 
     public static final Logger logger = Logger.getLogger(Logger.class.getName());
 
-    public RemoteWebDriver driver;
+    public WebDriver driver;
     public WebDriverWait wait;
 
-    public BasePage (RemoteWebDriver driver){
+    public BasePage (WebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
@@ -39,7 +39,7 @@ public class BasePage {
     public void uploadImage(By by, String image_path)
     {
         try {
-            driver.setFileDetector(new LocalFileDetector());
+            ((RemoteWebDriver) driver).setFileDetector(new LocalFileDetector());
             File file = new File(image_path);
             String absolutePath = file.getAbsolutePath();
             waitElementAppear(by).sendKeys(absolutePath);
@@ -55,7 +55,7 @@ public class BasePage {
     protected WebElement getElement(By by){
         try{
             return wait.ignoring(StaleElementReferenceException.class)
-                    .until(ExpectedConditions.visibilityOfElementLocated(by));
+                    .until(ExpectedConditions.elementToBeClickable(by));
         }catch (Exception e){
             Assert.fail(COULD_NOT_FIND_ELEMENT + by + " Error: " + e);
             return null;

@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class DriverAbstraction {
 
-    public static RemoteWebDriver getDriver(String config_file, String environment) throws Exception {
+    public static WebDriver getDriver(String config_file, String environment) throws Exception {
         JSONParser parser = new JSONParser();
         JSONObject config = (JSONObject) parser.parse(new FileReader("src/test/resources/conf/" + config_file));
         JSONObject envs = (JSONObject) config.get("environments");

@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.WebDriver;
 
 public class MyEventsPage extends BasePage {
 
@@ -22,7 +22,7 @@ public class MyEventsPage extends BasePage {
   private final By HOME = By.xpath("//*[contains(@class,'fa-home')]");
   private final By LOADER_ICON = By.xpath("//*[contains(@class,'Loader_loading-icon-element')]");
 
-  public MyEventsPage(RemoteWebDriver driver) {
+  public MyEventsPage(WebDriver driver) {
     super(driver);
   }
 

@@ -10,7 +10,7 @@ import util.Configuration;
 
 public class BaseTest {
 
-    RemoteWebDriver driver;
+    WebDriver driver;
     Configuration configuration = new Configuration();
 
     @BeforeMethod(alwaysRun = true)

@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import util.Constants;
 
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class BrowserPage extends BasePage {
 
-  public BrowserPage (RemoteWebDriver driver) {
+  public BrowserPage (WebDriver driver) {
     super(driver);
   }
 
