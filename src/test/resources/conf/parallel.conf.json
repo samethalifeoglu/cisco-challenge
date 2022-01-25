@@ -5,13 +5,16 @@
 
   "capabilities": {
     "build": "testng-browserstack",
-    "name": "single_test",
+    "name": "parallel_test",
     "browserstack.debug": true
   },
 
   "environments": {
-    "chrome": {
+    "env1": {
       "browser": "chrome"
+    },
+    "env2": {
+      "browser": "firefox"
     }
   }
 }
